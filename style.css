@@ -1,0 +1,41 @@
+body {
+   background-color: rgb(231, 210, 210);
+};
+
+.converter {
+   margin: 50px;
+}
+.row {
+   display: flex; 
+   background-color: #fff;
+   width: 600px;
+   justify-content: space-between;
+} 
+.converter {
+   width: 600px;
+   margin: 50px;
+   background-color: rgb(223, 164, 164);
+}
+
+#currency{
+   margin-bottom: 30px;
+}
+
+#btnReverse {
+   margin-top: 30px;
+}
+
+input{
+   width: 80px;
+}
+.block {
+   display: flex;
+   width: 300px;
+}
+#inMoney,
+#outMoney {
+   margin-left: 10px;
+}
+#inValue{
+   border: 3px solid rgb(128, 94, 94) ;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="converter">
+
+      <select id="currency">
+         <option value="0">выбери валюту</option>
+         <option value="usd">USD</option>
+         <option value="eur">EUR</option>
+      </select>
+
+      <div class="row">
+         <div class="block">
+            <input type="number" id="inValue" placeholder="сумма">
+            <div id="inMoney">выбери валюту</div>
+         </div>
+
+         <div class="block">
+            <input type="number" id="outValue">
+            <div id="outMoney">выбери валюту</div>
+         </div>
+
+
+      </div>
+
+
+      <button id="btnReverse">конвертировать обратно</button>
+   </div>
+
+
+   <script src="script/script.js"></script>
+</body>
+</html>
